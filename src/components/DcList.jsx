@@ -1,6 +1,7 @@
 import ComicsList from "./lists/ComicsList"
 import ShopList from "./lists/ShopList"
 import OptionsList from "./lists/OptionsList"
+import SitesList from "./lists/SitesList"
 
 const DcList = () => {
     return(
@@ -22,13 +23,7 @@ const DcList = () => {
             </div>
             <div className="column3">
                 <nav>
-                    <ul><h3>SITES</h3>
-                        <li>DC</li>
-                        <li>MAD Magazine</li>
-                        <li>DC Kids</li>
-                        <li>DC Universe</li>
-                        <li>DC Power Visa</li>
-                    </ul>
+                    <SitesList />
                 </nav>
             </div>
           </div>
