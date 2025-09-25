@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import DcHeader from './components/DcHeader'
 import DcMain from './components/DcMain'
-import DcList from './components/DcList'
 import DcFooter from './components/DcFooter'
 import './App.css'
 
@@ -12,7 +11,6 @@ function App() {
     <>
       <DcHeader />
       <DcMain />
-      <DcList />
       <DcFooter />
     </>
   )

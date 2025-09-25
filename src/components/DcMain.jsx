@@ -1,9 +1,12 @@
+import DcComics from "./DcComics"
 import DcList from "./DcList"
 
 const DcMain = () => {
     
     return(
         <div>
+            <DcComics />
+
             <div className="sfondo-nero">
                 <div className="content">
                     <strong> --&gt; Content goes here &lt;-- </strong>

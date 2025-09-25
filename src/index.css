@@ -110,6 +110,38 @@ ul li{
   font-weight:bold;
 }
 
+/* Comics */
+
+.comics-container{
+  width:70%;
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  margin: 0 auto;
+  padding-top:20px;
+}
+
+.comic{
+  width: calc((100% - 220px) / 6);
+}
+
+.comic .image{
+  width:100%;
+  aspect-ratio:1;
+}
+
+.comic img{
+  width:100%;
+  height:100%; 
+}
+
+.comic p{
+  color:white;
+  font-size:0.6rem;
+  margin-bottom:3px;
+  text-align:left;
+}
+
 /* Main */
 
 .sfondo-nero{
