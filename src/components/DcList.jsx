@@ -1,4 +1,5 @@
 import ComicsList from "./lists/ComicsList"
+import ShopList from "./lists/ShopList"
 
 const DcList = () => {
     return(
@@ -10,11 +11,7 @@ const DcList = () => {
                     <ComicsList />
                 </nav>
                 <nav>
-                    <ul> 
-                        <h3>SHOP</h3>
-                        <li>Shop DC</li>
-                        <li>Shop Dc colectibles</li>
-                    </ul>
+                    <ShopList />
                 </nav>
             </div>
             <div className="column2">

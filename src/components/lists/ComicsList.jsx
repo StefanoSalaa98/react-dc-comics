@@ -42,7 +42,7 @@ const ComicsList = () => {
         <ul>
             <h3>DC COMICS</h3>
             {comics.map(comic =>
-                <li key={comic.id}>
+                <li key={"comic" + comic.id}>
                     <a href={comic.url}> {comic.text} </a>
                 </li>
             )}
