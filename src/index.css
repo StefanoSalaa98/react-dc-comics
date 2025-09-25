@@ -172,14 +172,7 @@ ul li{
   background-position: center;
 }
 
-/* .logo-bg img{
-  width:100%;
-  transform: scale(1.5);
-} */
-
 .list-container{
-  /* width:70%; */
-  /* margin:0 auto; */
   display:flex;
   padding:20px 0;
 }

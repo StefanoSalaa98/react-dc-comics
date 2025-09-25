@@ -1,3 +1,5 @@
+import DcList from "./DcList"
+
 const DcMain = () => {
     
     return(
@@ -43,6 +45,9 @@ const DcMain = () => {
                 </ul>
               </nav>
             </div>
+
+            <DcList />
+
         </div>
     )
 }

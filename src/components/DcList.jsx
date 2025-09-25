@@ -54,7 +54,6 @@ const DcList = () => {
             </div>
           </div>
           <div className="logo-bg">
-            {/* <img src="img/dc-logo-bg.png" alt="dc-logo-bg" /> */}
           </div>
         </div>
       </div>
