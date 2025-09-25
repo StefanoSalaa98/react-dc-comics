@@ -154,16 +154,22 @@ const comics = [
 
 const DcComics = () =>{
      return(
-        <div className="comics-container">
-            {comics.map(comic =>
-                <div key={comic.id} className="comic">
-                    <div className="image">
-                        <img src={comic.thumb} alt={comic.title} />
-                    </div>
-                    <p>{comic.series.toUpperCase()}</p>
-                </div>     
-            )}
-        </div>
+        <>
+            <div className="comics-container">
+                {comics.map(comic =>
+                    <div key={comic.id} className="comic">
+                        <div className="image">
+                            <img src={comic.thumb} alt={comic.title} />
+                        </div>
+                        <p>{comic.series.toUpperCase()}</p>
+                    </div>     
+                )}
+            </div>
+           
+            <button className="bottone">
+                <strong>LOAD MORE</strong>
+            </button>
+        </>
     )
 }
 
