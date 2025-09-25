@@ -1,4 +1,6 @@
-const navList = [
+const NavBar = () =>{
+
+    const navList = [
     { 
         id:1,
         url: '#',
@@ -49,9 +51,8 @@ const navList = [
         url: '#',
         title: "SHOP"
     }
-];
+    ];
 
-const NavBar = () =>{
     return(
         <ul>
         {navList.map(link =>
