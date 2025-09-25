@@ -1,3 +1,5 @@
+import ComicsList from "./lists/ComicsList"
+
 const DcList = () => {
     return(
       <div className="sfondo">
@@ -5,16 +7,7 @@ const DcList = () => {
           <div className="list-container">
             <div className="column1">
                 <nav>
-                    <ul> 
-                        <h3>DC COMICS</h3>
-                        <li>Characters</li>
-                        <li>Comics</li>
-                        <li>Movies</li>
-                        <li>Tv</li>
-                        <li>Games</li>
-                        <li>Videos</li>
-                        <li>News</li>
-                    </ul>
+                    <ComicsList />
                 </nav>
                 <nav>
                     <ul> 

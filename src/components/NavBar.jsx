@@ -56,7 +56,7 @@ const NavBar = () =>{
     return(
         <ul>
         {navList.map(link =>
-            <li key={link.id}> 
+            <li key={"nav" + link.id}> 
                 <a href={link.url}> {link.title}  </a>
             </li>
         )}
