@@ -1,5 +1,6 @@
 import ComicsList from "./lists/ComicsList"
 import ShopList from "./lists/ShopList"
+import OptionsList from "./lists/OptionsList"
 
 const DcList = () => {
     return(
@@ -16,19 +17,7 @@ const DcList = () => {
             </div>
             <div className="column2">
                 <nav>
-                    <ul><h3>DC</h3>
-                        <li>Therms Of Use</li>
-                        <li>Privacy policy (New)</li>
-                        <li>Add Choices</li>
-                        <li>Advertising</li>
-                        <li>Jobs</li>
-                        <li>Subscriptions</li>
-                        <li>Talent Workshops</li>
-                        <li>CPSC Certificates</li>
-                        <li>Ratings</li>
-                        <li>Shop Help</li>
-                        <li>Contact Us</li>
-                    </ul>
+                    <OptionsList />
                 </nav>
             </div>
             <div className="column3">
