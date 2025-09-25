@@ -5,6 +5,10 @@ const DcMain = () => {
     
     return(
         <div>
+            
+            <div className="jumbotron">
+            </div>
+
             <DcComics />
 
             <div className="sfondo-nero">

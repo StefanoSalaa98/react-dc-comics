@@ -158,6 +158,13 @@ nav a {
 
 /* Main */
 
+.jumbotron{
+  height:280px;
+  width:100%;
+  background-image:url("/img/jumbotron.jpg");
+  background-size: cover;
+}
+
 .sfondo-nero{
   background-color:black;
 }
