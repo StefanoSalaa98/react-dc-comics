@@ -165,6 +165,23 @@ nav a {
   background-size: cover;
 }
 
+.jumbo-btn{
+  width:70%;
+  margin:0 auto;
+  text-align:left;
+  position:relative;
+  top:-20px;
+  left:0;
+}
+
+.jumbo-btn button{
+  font-size:1.2rem;
+  color:white;
+  background-color:#0C7CEC;
+  padding:10px 20px;
+  border:0;
+}
+
 .sfondo-nero{
   background-color:black;
 }

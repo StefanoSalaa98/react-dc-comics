@@ -8,6 +8,12 @@ const DcMain = () => {
             
             <div className="jumbotron">
             </div>
+            
+            <div className="jumbo-btn">
+                <button>
+                   CURRENT SERIES
+                </button>
+            </div>
 
             <DcComics />
 
