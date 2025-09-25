@@ -110,6 +110,11 @@ ul li{
   font-weight:bold;
 }
 
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* Comics */
 
 .comics-container{
