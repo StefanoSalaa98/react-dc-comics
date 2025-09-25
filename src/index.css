@@ -166,13 +166,16 @@ ul li{
 }
 
 .logo-bg{
-  width:250px;
+  width:400px; 
+  background-image: url("/img/dc-logo-bg.png");
+  background-size:cover;
+  background-position: center;
 }
 
-.logo-bg img{
+/* .logo-bg img{
   width:100%;
   transform: scale(1.5);
-}
+} */
 
 .list-container{
   /* width:70%; */
