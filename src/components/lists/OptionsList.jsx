@@ -1,3 +1,5 @@
+import Option from "./Option"
+
 const OptionsList = () =>{
 
     const Dc = [
@@ -62,9 +64,14 @@ const OptionsList = () =>{
         <ul>
             <h3>DC</h3>
             {Dc.map(item =>
-                <li key = {"Dc" + item.id}>
-                    <a href={item.url}> {item.text} </a>
-                </li>
+                // <li key = {"Dc" + item.id}>
+                //     <a href={item.url}> {item.text} </a>
+                // </li>
+                <Option
+                    id = {item.id}
+                    url = {item.url}
+                    text = {item.text}
+                />
             )}
         </ul>
     )
