@@ -1,3 +1,5 @@
+import Comic from "./comic";
+
 const comics = [
   {
     id: 1,
@@ -158,10 +160,11 @@ const DcComics = () =>{
             <div className="comics-container">
                 {comics.map(comic =>
                     <div key={comic.id} className="comic">
-                        <div className="image">
-                            <img src={comic.thumb} alt={comic.title} />
-                        </div>
-                        <p>{comic.series.toUpperCase()}</p>
+                        <Comic 
+                            src={comic.thumb}
+                            title={comic.title}
+                            series={comic.series}
+                        />
                     </div>     
                 )}
             </div>
